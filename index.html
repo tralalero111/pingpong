@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ping Pong Spēle</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="game-container">
+        <header>
+            <div class="scoreboard">
+                <div class="score">
+                    <p>Punkts: <span id="current-score">0</span></p>
+                </div>
+                <div class="score">
+                    <p>Labākais punkts: <span id="high-score">0</span></p>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <canvas id="pingpong-game"></canvas>
+        </main>
+
+        <footer>
+            <button id="start-btn">Sākt spēli</button>
+            <button id="pause-btn">Pauze</button>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
